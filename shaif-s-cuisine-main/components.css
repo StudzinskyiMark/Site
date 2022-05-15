@@ -240,8 +240,8 @@
 /* Footer Styles */
 footer {
 	background: var(--lightGreen-1);
-	padding-top: 5rem;
-	padding-bottom: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 0.3rem;
 }
 .footer__wrapper {
 	display: flex;
