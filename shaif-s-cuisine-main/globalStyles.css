@@ -61,3 +61,17 @@ a {
 	display: inline-block;
 	text-decoration: none;
 }
+
+
+.nav {
+	position: fixed;
+	width: 100%;
+	background: #f5fcf4;
+	z-index: 10;
+	padding: 0%;
+}
+
+.logo img {
+	width: 60%;
+	padding: 0%;
+}
