@@ -298,8 +298,7 @@ footer {
       "col1 col1 col1 "
       "col2 col3 col3 "
       "col2 col4 col4 ";
-   /* grid-template-columns: ; */
-   /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+
 }
 
 .footer__col1 {
@@ -327,8 +326,7 @@ footer {
       display: grid;
       grid-template-areas: 
       "col1 col2 col3 col4";
-      /* grid-template-columns: ; */
-      /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+
 	}
 	.footer__col1 {
 	   grid-area: col1;
