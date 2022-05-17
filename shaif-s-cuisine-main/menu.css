@@ -7,7 +7,7 @@
 	font-size: 2.2rem;
 	color: var(--black-1);
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 760px) {
 	#page__title {
 		padding-top: 5rem;
 		padding-bottom: 3rem;
@@ -66,7 +66,7 @@
 .ourSpecials__item__stars {
 	width: max-content;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 760px) {
 	.ourSpecials__title {
 		font-size: 2.4rem;
 	}

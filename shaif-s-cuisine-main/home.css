@@ -7,7 +7,7 @@
 	gap: 5rem;
 }
 .hero__left__wrapper {
-	max-width: 350px;
+	max-width: 450px;
 }
 .hero__imgWrapper {
 	max-width: 400px;
@@ -19,13 +19,13 @@
 	font-weight: 600;
 	line-height: 1.4em;
 	text-align: center;
-	font-size: 1.8rem;
+	font-size: 2.3rem;
 	margin-bottom: 1.5rem;
 	color: var(--black-1);
 }
 .hero__info {
 	text-align: center;
-	font-size: 1.4rem;
+	font-size: 1.7rem;
 	margin-bottom: 1.5rem;
 	color: var(--black-2);
 }
@@ -53,7 +53,7 @@
 	.hero__info {
 		margin-bottom: 2rem;
 		text-align: left;
-		font-size: 1.8rem;
+		font-size: 2rem;
 	}
 
 	.button__wrapper {
@@ -133,12 +133,13 @@
 	color: var(--black-2);
 	margin-bottom: 1rem;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 760px) {
 	#ourSpecials {
 		padding-top: 15rem;
 	}
 	#ourSpecials .container {
-		max-width: 900px;
+		/* max-width: 900px; */
+		max-width: 100%;
 	}
 	.ourSpecials__wrapper {
 		flex-direction: row;
