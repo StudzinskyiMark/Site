@@ -1,7 +1,6 @@
 /* Nav Styles */
 .nav {
-	padding: 2rem 0;
-
+	padding: 1rem 0;
 }
 .nav__icon,
 .nav__close,
@@ -10,7 +9,7 @@
 }
 .nav__wrapper {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 }
 .nav__list li {
@@ -37,8 +36,12 @@ a.logo {
 
 
 @media only screen and (max-width: 760px) {
+   body{
+      margin-top: 0;
+   }
 	.nav {
 		position: relative;
+      margin-top: 0;
 		/* overflow-x: scroll; */
 	}
 	.nav__icon {
@@ -312,8 +315,8 @@ footer {
    display: grid;
    grid-template-areas:
       "col1 col1 col1 "
-      "col2 col3 col3 "
-      "col2 col4 col4 ";
+      "col2 col3 col4 "
+      "col2 col3 col4 ";
 
 }
 

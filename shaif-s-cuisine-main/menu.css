@@ -6,6 +6,8 @@
 .page__title__text {
 	font-size: 2.2rem;
 	color: var(--black-1);
+   text-align: center;
+
 }
 @media only screen and (min-width: 760px) {
 	#page__title {
@@ -14,6 +16,7 @@
 	}
 	.page__title__text {
 		font-size: 3.6rem;
+      text-align: left;
 	}
 }
 /* Our Specials Menu Styles */
@@ -24,12 +27,14 @@
 	font-size: 1.8rem;
 	color: var(--black-1);
 	margin-bottom: 2rem;
+   text-align: center;
 }
 .ourSpecials__wrapper {
 	display: flex;
 	gap: 1.5rem;
 	flex-direction: column;
 	max-width: 400px;
+   justify-content: center;
 }
 .ourSpecials__item {
 	flex: 1;
@@ -69,13 +74,16 @@
 @media only screen and (min-width: 760px) {
 	.ourSpecials__title {
 		font-size: 2.4rem;
+      text-align: left;
 	}
 	.ourSpecials__wrapper {
 		flex-direction: row;
 		gap: 2rem;
 		max-width: none;
+      justify-content: space-evenly;
 	}
 	.ourSpecials__item {
+
 		padding: 3rem;
 		gap: 2rem;
 	}

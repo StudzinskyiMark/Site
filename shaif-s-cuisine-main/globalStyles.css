@@ -9,6 +9,7 @@ body {
 	background: var(--lightGreen-2);
 	overflow-x: hidden;
 	visibility: hidden;
+   margin-top: 60px;
 }
 section {
 	padding: 100px 0;
@@ -26,6 +27,12 @@ section {
 	section {
 		padding: 50px 0;
 	}
+   .container {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+   }
 }
 .container {
 	max-width: 1100px;
@@ -97,6 +104,7 @@ a {
 	background: #f5fcf4;
 	z-index: 10;
 	padding: 0%;
+   margin-top: -60px;
 }
 
 .logo img {
