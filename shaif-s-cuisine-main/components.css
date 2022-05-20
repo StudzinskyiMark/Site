@@ -191,7 +191,7 @@ a.logo {
    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
    gap: 1rem;
 }
-.dishGrid__item {
+/* .dishGrid__item {
 	display: flex;
 	flex-direction: raw;
    max-height: 10rem;
@@ -202,22 +202,49 @@ a.logo {
 	gap: 0.5rem;
 }
 .dishGrid__item__img {
-	flex: 4;
+   flex: 4;
 }
 .dishGrid__item__info {
-	flex: 5;
+   flex: 5;
+}*/
+.dishGrid__item__title {
+   font-size: 1.4rem;
+   line-height: 1.3em;
+   font-weight: 500;
+   color: var(--black-1);
+   margin-bottom: 0.5rem;
 }
+
+
 .dishGrid__item__img img {
 	object-fit: cover;
 	border-radius: 12px;
 }
-.dishGrid__item__title {
-	font-size: 1.4rem;
-	line-height: 1.3em;
-	font-weight: 500;
-	color: var(--black-1);
-	margin-bottom: 0.5rem;
+
+
+.dishGrid__item {
+	display: flex;
+   flex-wrap: wrap;
+	background-color: var(--lightGreen-1);
+	padding: 0.5rem;
+	border-radius: 8px;
+ 
+	gap: 0.7rem;
 }
+.dishGrid__item__img {
+   flex: 1 2 120px;
+   height: 150px;
+}
+.dishGrid__item__info {
+   flex: 1 1 200px;
+   padding: 0.5rem;
+}
+
+
+
+
+
+
 .dishGrid__item__price {
 	font-size: 1.4rem;
 	color: var(--green-1);
@@ -228,7 +255,7 @@ a.logo {
 	max-height: 15px;
 	width: max-content;
 }
-@media only screen and (min-width: 900px) {
+/* @media only screen and (min-width: 900px) {
 	.dishGrid__title {
 		font-size: 2rem;
       justify-content: start;
@@ -254,7 +281,7 @@ a.logo {
 		margin-bottom: 1rem;
 	}
 }
-/* Dishes Grid */
+Dishes Grid */
 
 /* Footer Styles */
 footer {
