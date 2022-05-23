@@ -218,7 +218,7 @@ a.logo {
 
 .dishGrid__item__img img {
 	object-fit: cover;
-	border-radius: 12px;
+	border-radius: 8px;
 }
 
 
@@ -227,24 +227,18 @@ a.logo {
    flex-wrap: wrap;
 	background-color: var(--lightGreen-1);
 	padding: 0.5rem;
-	border-radius: 8px;
- 
-	gap: 0.7rem;
+	border-radius: 12px;
+	gap: 1rem;
 }
 .dishGrid__item__img {
    flex: 1 2 120px;
-   height: 150px;
+   aspect-ratio: 1 / 1;
+   height: 100px;
 }
 .dishGrid__item__info {
    flex: 1 1 200px;
    padding: 0.5rem;
 }
-
-
-
-
-
-
 .dishGrid__item__price {
 	font-size: 1.4rem;
 	color: var(--green-1);
@@ -402,19 +396,6 @@ footer {
 	.footer__text a {
 		font-size: 1.8rem;
 		margin-bottom: 1rem;
-	}
-}
-#copyright {
-	padding: 1rem 0;
-}
-.copyright__text {
-	font-size: 1.4rem;
-	text-align: center;
-}
-@media only screen and (min-width: 768px) {
-	.copyright__text {
-		font-size: 1.6rem;
-		text-align: left;
 	}
 }
 /* End Footer Styles */
